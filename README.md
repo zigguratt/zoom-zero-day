@@ -1,6 +1,8 @@
 # Zoom Zero Day app
 
-This is a tiny application that runs a script to disable Zoom's hidden web server on MacOS. This allows those less technically inclined to apply the fix without having to resort to using the terminal.
+This is a tiny application that runs a script to disable Zoom's hidden web server on MacOS. This allows those less technically inclined to apply the fix without having to resort to using the terminal. Just download the ZIP file in this repo, double-click on it in Finder to unzip it, then double-click on the resulting _ZoomZeroDay.app_ file. All of a sudden, _nothing will happen!_ It ain't fancy. You only need to do this once, however. At the same time, there's no harm in going double-click-happy if you really want to. Have at it!
+
+If you have default security settings, MacOS probably won't let you open the app. If you hold _option_ down and right-click on the application, then choose _Open_, you'll be given a choice to open it instead of being completely denied.
 
 The simple script in the application is taken from the end of [this article](https://medium.com/@jonathan.leitschuh/zoom-zero-day-4-million-webcams-maybe-an-rce-just-get-them-to-visit-your-website-ac75c83f4ef5)
 
