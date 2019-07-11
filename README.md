@@ -1,5 +1,7 @@
 # Zoom Zero Day app
 
+>UPDATE: Apple has pushed out a [silent update](https://techcrunch.com/2019/07/10/apple-silent-update-zoom-app/) to MacOS that removes Zoom's hidden web server. There's no longer any need for this application but I'll leave it here for historical purposes.
+
 This is a tiny application that runs a script to disable Zoom's hidden web server on MacOS. This allows those less technically inclined to apply the fix without having to resort to using the terminal. Just download the ZIP file in this repo, double-click on it in Finder to unzip it, then double-click on the resulting _ZoomZeroDay.app_ file. All of a sudden, _nothing will happen!_ It ain't fancy. You only need to do this once, however. At the same time, there's no harm in going double-click-happy if you really want to. Have at it! Once you've run the app once you can delete it as it's no longer of any use.
 
 If you have default security settings, MacOS probably won't let you open the app. If you hold _option_ down and right-click on the application, then choose _Open_, you'll be given a choice to open it instead of being completely denied.
